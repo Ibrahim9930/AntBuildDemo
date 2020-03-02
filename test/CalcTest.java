@@ -9,12 +9,9 @@ import org.junit.jupiter.api.Test;
 
 public class CalcTest {
 
-	@BeforeEach
-	void setUp() throws Exception {
-	}
-
+	
 	@Test
-	void testAdd_twoPoisitveInputs_positiveOutput() {
+	public void testAdd_twoPoisitveInputs_positiveOutput() {
 		int a = 5;
 		int b = 6;
 		Calc c= new Calc();
