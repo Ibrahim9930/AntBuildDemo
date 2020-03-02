@@ -16,7 +16,7 @@ public class CalcTest {
 		int b = 6;
 		Calc c= new Calc();
 		int d = c.addNums(a,b);
-		Assert.assertTrue(d==12);
+		Assert.assertTrue(d==11);
 	}
 
 }
