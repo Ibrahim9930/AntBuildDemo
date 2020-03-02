@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 
 
-class CalcTest {
+public class CalcTest {
 
 	@BeforeEach
 	void setUp() throws Exception {
